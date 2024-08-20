@@ -1,6 +1,8 @@
 # neovim in codespaces
 template to get up and running with neovim (w/ nvchad) using docker compose in github codespaces
 
+> built out of pure frustration over the bloat and sluggishness of VSCode extensions. Neovim and its plugin ecosystem is way faster and lighter imho
+
 the build scripts and tools in this template configuration will use docker compose to spin up an alpine-based docker container containing a neovim installation that is configured with the base NvChad config.
 
 ## setup
