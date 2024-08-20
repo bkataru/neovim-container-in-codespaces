@@ -73,4 +73,11 @@ alternatively, type
 $ docker compose down
 ```
 
-if you just want to stop and remove the container but don't want to remove the built docker image
+if you just want to stop and remove the container but don't want to remove the built docker image (useful when you don't want to rebuild the entire image on each `make start`)
+
+## `exec`ing and `exit`ing
+
+after you've started and configured the container for the first time, you can move between the codespace environment and the running container environment seamlessly:
+
+- you can `exec` into the already-running container again by just typing the same `make start` instruction mentioned before.
+- you can `exit` out of the running container by just typing `exit` as mentioned before.
