@@ -1,7 +1,7 @@
 # neovim in codespaces
-template to get up and running with neovim (w/ nvchad) in github codespaces
+template to get up and running with neovim (w/ nvchad) using docker compose in github codespaces
 
-the build scripts and tools in this template configuration will spin up an alpine-based docker container containing a neovim installation that is configured with the base NvChad config.
+the build scripts and tools in this template configuration will use docker compose to spin up an alpine-based docker container containing a neovim installation that is configured with the base NvChad config.
 
 ## setup
 
