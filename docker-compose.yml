@@ -1,0 +1,12 @@
+
+services:
+  dev:
+    image: devenvironment
+    container_name: devcontainer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/workspace
+    tty: true
+    command: "/usr/bin/fish" 
